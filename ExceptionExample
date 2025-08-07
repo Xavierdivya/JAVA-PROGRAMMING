@@ -1,0 +1,59 @@
+import java.io.BufferedReader;
+import java.io.FileReader;
+
+class ExceptionExample{
+    public static void main (String args[])throws Exception{
+
+        // Exception using throws
+        // int a=10/0;
+        // System.out.println(a);
+
+        
+        
+        // User defined Exception using throw
+        // int age=16;
+        // try{
+        //     if(age>18) System.out.println("you are eligible to vote");
+        //     else throw new Exception();
+        // }
+        // catch(Exception e){
+        //     System.out.println("you are not eligible to vote");
+        //     //System.out.println(e.getMessage());
+        // }
+        
+        
+        //I/O Exception
+        // try{
+        //     BufferedReader reader=new BufferedReader(new FileReader("i.txt"));
+        //     String s=reader.readLine();
+        //     System.out.println(s);
+        // }
+        // catch(Exception e){
+        //     System.err.println(e.getMessage());
+
+        // }
+        
+        
+        // Number Format Exception
+        // String s="rt";
+        // try{
+        //     int a=Integer.parseInt(s);
+        //     System.out.println(a);
+        // }
+        // catch(NumberFormatException e){
+        //     e.printStackTrace();
+        // }
+        
+        
+        
+        
+        // Null Pointer Exception
+        // String s=null;
+        // try{
+        //     System.out.println(s.length());
+        // }
+        // catch(Exception e){
+        //     System.err.println(e.getMessage());
+        // }
+    }
+}
