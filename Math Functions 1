@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner sc = new Scanner(System.in);
+        float f=sc.nextFloat();
+        int a=sc.nextInt() ;
+        int b=sc.nextInt () ;
+        int p=sc.nextInt () ;
+        System.out.println((int)Math.floor(f)) ;
+        System.out.println((int)Math.ceil(f)) ;
+        System.out.println((int)Math.sqrt(a));
+        System.out.println((int)Math.pow(b,p));
+    }
+}
